@@ -119,12 +119,13 @@
 
 // inheritance
 
+// comment to check
 class monster{
     constructor(name){
         this.name = name;
     }
     eat(){
-        return `${this.name} is eating`;
+        return `${this.name} is eating.`;
     }
     breath(){
         return `${this.name} is breath;`
